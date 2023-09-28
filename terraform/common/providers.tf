@@ -1,14 +1,1 @@
-terraform {
-  backend "gcs" {
-    bucket = "mcg-ope-admin-gha-tfstate"
-    prefix = "__company__-__dept__-__project__/common"
-  }
-
-  required_providers {
-    google = ">= 4.0.0"
-  }
-}
-
-provider "google" {
-  region       = var.region
-}
+terraform {  backend "gcs" {    bucket = "mcg-ope-admin-gha-tfstate"    prefix = "mec001-datateam2-my_project_gcp/common"  }  required_providers {    google = ">= 4.0.0"  }}provider "google" {  region       = var.region}
