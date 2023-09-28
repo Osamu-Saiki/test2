@@ -2,7 +2,7 @@ data "terraform_remote_state" "common" {
   backend = "gcs"
   config = {
     bucket = "mcg-ope-admin-gha-tfstate"
-    prefix = "__company__-__dept__-__project__/common"
+    prefix = "mec001-datateam2-my_project_gcp/common"
   }
 }
 
