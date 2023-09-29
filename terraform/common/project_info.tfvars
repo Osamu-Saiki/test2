@@ -1,5 +1,5 @@
 company = "mec001"
 dept = "datateam2"
-project = "my_project_gcp"
+project = "myproject"
 subnet_cidr = "10.0.25.0/24"
 email = "saikio@g-gen.co.jp"
