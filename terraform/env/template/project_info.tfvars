@@ -1,0 +1,6 @@
+company = "xxx"
+dept = "xxx"
+project = "xxx"
+env = "xxx"
+subnet_cidr = "10.0.0.0/16"
+email = "xxx"
