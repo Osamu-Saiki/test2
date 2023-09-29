@@ -1,7 +1,7 @@
 terraform {
   backend "gcs" {
     bucket = "mcg-ope-admin-gha-tfstate"
-    prefix = "mec001-datateam2-myproject/common"
+    prefix = "mec555-datateam555-myproject555/common"
   }
 
   required_providers {
