@@ -1,5 +1,5 @@
-company = "mec001"
-dept = "datateam2"
-project = "myproject"
+company = "mec555"
+dept = "datateam555"
+project = "myproject555"
 subnet_cidr = "10.0.25.0/24"
 email = "saikio@g-gen.co.jp"
